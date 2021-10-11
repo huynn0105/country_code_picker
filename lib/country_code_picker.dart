@@ -4,8 +4,8 @@ import 'package:collection/collection.dart' show IterableExtension;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:project_3s_mart_app/ui/common_widgets/country_code_widget/country_code.dart';
-import 'package:project_3s_mart_app/ui/common_widgets/country_code_widget/selection_dialog.dart';
+import 'package:country_code_picker/country_code.dart';
+import 'package:country_code_picker/selection_dialog.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 
 import 'country_codes.dart';
