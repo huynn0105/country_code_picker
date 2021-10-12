@@ -103,9 +103,10 @@ class CountryCodePickerState extends State<CountryCodePicker> {
         child: Row(
           children: [
             Image.asset(
-              'assets/${selectedItem!.flagUri!}',
-              height: 12.h,
-              width: 18.h,
+                selectedItem!.flagUri!,
+                height: 12.h,
+                width: 18.h,
+                package: 'country_code_picker',
             ),
             SizedBox(width: 7.h),
             Text(
