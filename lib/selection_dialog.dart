@@ -106,8 +106,9 @@ class _SelectionDialogState extends State<SelectionDialog> {
                 Container(
                   clipBehavior: Clip.none,
                   child: Image.asset(
-                    'assets/${e.flagUri!}',
-                    width: 22.4.w,
+                      $e.flagUri!,
+                      width: 22.4.w,
+                      package: 'country_code_picker',
                   ),
                 ),
                 SizedBox(width: 8.4.w),
